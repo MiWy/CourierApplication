@@ -32,6 +32,6 @@ Code's quality surely could be better. Even when I'm writing this Readme I can s
 Exceptions aren't handled properly in several cases, activities and fragments' lifecycles aren't always properly taken care of, margins and other UI things were pretty much ignored, etc. If time will allow, I'll update the code. I was just trying to show that even without solid coding experience you can actually implement some sort of back-end to your Android applications.
 
 ## License
-Feel free to do whatever it is you want with this code as long as license allows it (rights and limitations in [License]() file).
+Feel free to do whatever it is you want with this code as long as license allows it (rights and limitations in [License](https://github.com/MiWy/CourierApplication/blob/master/License.txt) file).
 Copyright 2017 Michał Wyrwa
 Mozilla Public License 2.0.
