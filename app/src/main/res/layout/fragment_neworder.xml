@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.tryouts.courierapplication.fragments.NewOrderFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/heading_from_text_view"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/heading_from"
+                android:textSize="20sp"
+                android:textAllCaps="true"/>
+
+            <FrameLayout
+                android:id="@+id/place_autocomplete_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/place_autocomplete_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/hint_address"
+                    android:textSize="20sp"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/heading_to_text_view"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/heading_to"
+                android:textSize="20sp"
+                android:textAllCaps="true"/>
+
+            <FrameLayout
+                android:id="@+id/place_autocomplete_frame2"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/place_autocomplete_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/hint_address"
+                    android:textSize="20sp"/>
+                <!--<fragment-->
+                <!--android:id="@+id/place_autocomplete_fragment2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"-->
+                <!--/>-->
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            >
+
+            <Button
+                android:id="@+id/neworder_button_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginRight="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="0.4"
+                android:text="@string/heading_calculate"/>
+
+            <Button
+                android:id="@+id/neworder_button_additional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:text="@string/neworder_alert_additional"/>
+
+            <Button
+                android:id="@+id/neworder_button_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="0.4"
+                android:text="@string/heading_call"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/neworder_textview_summary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textAllCaps="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/neworder_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.google.android.gms.maps.MapView>
+        </LinearLayout>
+        <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:name="com.google.android.gms.maps.MapFragment"-->
+        <!--android:id="@+id/neworder_map"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+</LinearLayout>
+

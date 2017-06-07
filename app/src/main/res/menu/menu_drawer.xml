@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/drawer_subheader_orders">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_current_order"
+                        android:icon="@drawable/ic_current"
+                        android:title="@string/drawer_goto_currentorder"/>
+                    <item
+                        android:id="@+id/nav_neworder"
+                        android:icon="@drawable/ic_drawer_neworder"
+                        android:title="@string/drawer_goto_neworder" />
+                    <item
+                        android:id="@+id/nav_previous_orders"
+                        android:icon="@drawable/ic_history"
+                        android:title="@string/drawer_goto_previousorders"/>
+                    <item
+                        android:id="@+id/nav_pricelist"
+                        android:icon="@drawable/ic_drawer_pricelist"
+                        android:title="@string/drawer_goto_pricelist" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/drawer_subheader_settings">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_drawer_profile"
+                        android:title="@string/drawer_goto_profile" />
+                    <item
+                        android:id="@+id/nav_profileedit"
+                        android:icon="@drawable/ic_edit_profile_details"
+                        android:title="@string/drawer_goto_editprofile"/>
+
+                    <item
+                        android:id="@+id/nav_about"
+                        android:title="@string/drawer_goto_about" />
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:title="@string/drawer_goto_logout"/>
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>

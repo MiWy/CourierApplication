@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Courier app</string>
+    <string name="app_title">Courier app</string>
+
+    !--DRAWER STRINGS-->
+    <string name="drawer_goto_logout">Logout</string>
+    <string name="drawer_goto_profile">My profile</string>
+    <string name="drawer_goto_editprofile">Edit profile</string>
+    <string name="drawer_goto_pricelist">Pricelist</string>
+    <string name="drawer_goto_neworder">Order a courier</string>
+    <string name="drawer_goto_about">About</string>
+    <string name="drawer_goto_currentorder">Current order</string>
+    <string name="drawer_goto_previousorders">Order history</string>
+    <string name="drawer_subheader_orders">Orders</string>
+    <string name="drawer_subheader_settings">Settings</string>
+
+
+    <!--LOGIN AND REGISTER STRINGS-->
+    <string name="login_register_header">Sign up</string>
+    <string name="login_login_header">Sign in</string>
+    <string name="login_hint_email">Enter your e-mail</string>
+    <string name="login_hint_password">Enter password</string>
+    <string name="login_already_registerd">Registered? Log in!</string>
+    <string name="login_register_button">Register</string>
+    <string name="login_login_button">Log in</string>
+    <string name="login_progressbar_register">Registering… \n Wait</string>
+    <string name="login_no_account_yet">Do not have an account? Register</string>
+    <string name="login_progressbar_login">Logging.. \n Wait</string>
+    <string name="login_weak_password">Weak password. Try another.</string>
+    <string name="login_bad_email">E-mail not valid</string>
+    <string name="login_user_exists">User is already existing</string>
+    <string name="login_forgot_pass">Forgot password?</string>
+    <string name="login_forgot_pass_toast">Password reset instruction were send with e-mail</string>
+    <string name="login_forgot_pass_toast_unsucc">E-mail with password reset was not sent.</string>
+
+    <!--Profile Details-->
+    <string name="heading_name">Name</string>
+    <string name="heading_phone">Phone</string>
+    <string name="heading_mail">E-mail (needed for logging)</string>
+    <string name="hint_name">Enter a name (i.e. company name)</string>
+    <string name="hint_phone">Enter phone number</string>
+    <string name="hint_mail">Enter e-mail address</string>
+
+    <string name="profile_error_name">Enter your name and surname.</string>
+    <string name="profile_error_phone">Invalid phone number.</string>
+    <string name="profile_error_mail">Invalid e-mail address.</string>
+    <string name="profile_error_submit">Fill all fields.</string>
+    <string name="profile_edit_accept">Save changes</string>
+    <string name="profile_toast_update">Profile updated</string>
+
+    <!-- NEW ORDER STRINGS -->
+    <string name="heading_from">From:</string>
+    <string name="heading_to">To:</string>
+    <string name="heading_calculate">Prepare</string>
+    <string name="heading_call">Place order</string>
+    <string name="hint_address">Enter address</string>
+    <string name="neworder_summary_start">Distance is </string>
+    <string name="neworder_summary_mid">.</string>
+    <string name="neworder_express_checkbox">Express (up to 1h delivery time)</string>
+    <string name="neworder_superexpress_checkbox">Superexpress (under 1h delivery time)</string>
+    <string name="neworder_carexpress_checkbox">Road express</string>
+    <string name="neworder_alert_additional">Extra services</string>
+    <string name="neworder_error">Error occurred. Try again.</string>
+    <string name="neworder_placed_success">Order placed. \nWait for a notification from courier.</string>
+    <string name="neworder_placed_unsuccesful">Order could not be placed. \nDistance was not calculated or address field is empty.</string>
+
+    <!--ABOUT STRIGNS-->
+    <string name="about_first_header">Courier app</string>
+    <string name="about_second_header">Contact</string>
+    <string name="about_phone_number">+48000111000</string>
+    <string name="about_mail">office@magiccourierapp.pl</string>
+    <string name="about_address">Osiedle Czarów 72/10 \n \n  Poznań</string>
+
+
+    <!--Others-->
+    <string name="additional_1">Express</string>
+    <string name="additional_2">Superexpress</string>
+    <string name="additional_3">Car Express</string>
+
+    <string name="drawer_open">Open the navigation panel</string>
+    <string name="drawer_close">Close the navigation panel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="progress_phone_number">Contact number:</string>
+    <string name="progress_other_services">Others:</string>
+    <string name="progress_accept_question">New order</string>
+    <string name="progress_accept_button">Accept order</string>
+    <string name="progress_order_cancel">Cancel order</string>
+    <string name="progress_distance">Distance:</string>
+    <string name="progress_date">Placed: </string>
+    <string name="progress_order_success">Finished!</string>
+
+    <string name="dialog_sure_body">Are you sure?</string>
+    <string name="dialog_sure_title">Order status change</string>
+
+    <string name="toast_no_current_order">There is no active order.</string>
+    <string name="progress_dialog_loading">Loading</string>
+
+    <string name="toast_order_other_courier">Order is taken by another courier already.</string>
+    <string name="toast_order_finished">Order finished</string>
+    <string name="toast_order_canceled">The order was canceled.</string>
+    <string name="toast_order_taken">You accepted the order!</string>
+    <string name="toast_first_take_order">First accept the order</string>
+
+    <string name="heading_type">Status: </string>
+    <string name="type_new">New</string>
+    <string name="type_taken">In progress</string>
+    <string name="type_finished">Finished</string>
+    <string name="type_canceled">Canceled</string>
+
+</resources>
