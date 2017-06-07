@@ -1,4 +1,5 @@
-# Android Courier Application (Firebase Auth/Database/Cloud Functions)
+# Android Courier Application 
+# (Firebase Auth/Database/Cloud Functions)
 Source code for **Firebase in Android** series on [doksaprosta](http://doksaprosta.wordpress.com) blog.
 It is also a **simple** courier application for Android phones.
 ## Features
